@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLynXE Order</title>
+    <link rel="stylesheet" href="Azlan_style.css">
+    <script src="https://kit.fontawesome.com/f315dc7a80.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="header">
+
+        <a href="home.html" class="logo">FLynXE</a>
+
+        <nav class="navbar">
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="menu.html">menu</a>
+            <a href="order.html">order</a>
+            <a href="gallery.html">gallery</a>
+            <a href="recommended.html">recommended</a>
+            <a href="hour.html">hour</a>
+        </nav>
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+
+    </section>
+    <section class="order" id="order">
+
+        <h1 class="heading"> FLynXE Order </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="delivery man.png" alt="">
+            </div>
+
+
+            <form action="">
+                <h3>delivery to your home</h3>
+
+                <div class="inputBox">
+                    <span>Name</span>
+                    <input type="text" placeholder="enter your name" id="nameInput" required>
+                </div>
+
+                <div class="inputBox">
+                    <span>food name</span>
+                    <input type="text" placeholder="food you want" id="foodnameInput" required>
+                </div>
+
+                <div class="inputBox">
+                    <span>quantity</span>
+                    <input type="number" placeholder="how many you want" id="quantityInput" required>
+                </div>
+
+                <div class="inputBox">
+                    <span>phone number</span>
+                    <input type="number" placeholder="enter your number" id="phonenumberInput" required>
+                </div>
+
+                <div class="inputBox">
+                    <span>Notes</span>
+                    <textarea name="" placeholder="enter your address"  cols="30" rows="10" id="notesInput"></textarea>
+                </div>
+
+                <input type="submit" value="order now" class="btn" onclick="orderfrm()">
+
+                
+                
+
+            </form>
+
+        </div>
+        <script src="Azlan.js"></script>
+    </section>
+    <section class="footer">
+
+        <div class="box-container">
+    
+            <div class="box">
+                <i class="fas fa-map"></i>
+                <h3>address</h3>
+                <p>Tingkat 3 , bangunan kemboja teratai <br>
+                    43200, wilayah persekutuan kuala lumpur <br>
+                    kuala lumpur</p>
+            </div>
+    
+            <div class="box">
+                <i class="fas fa-phone"></i>
+                <h3>contact us</h3>
+                <a href="#" class="link">flynxe@coffee.com</a>
+                <p>+60 1780 4824</p>
+            </div>
+    
+            <div class="box">
+                <i class="fas fa-phone"></i>
+                <h3>social media</h3>
+            <p> <a href="https://twitter.com/flynxe21081">Twitter</a><br>
+                <a href="https://www.instagram.com/flynxecoffee/">Instagram</a><br>
+            </p>
+            </div>
+    
+        </div>
+    
+    
+    </section>
+    <p class="rights">&copy;All rights reserved. <b>FLynXE Sdn. Bhd.</b></p></body>
+</html>
